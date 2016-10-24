@@ -1,4 +1,5 @@
 addListItem("david" + "/notes", "hi there!!!!")
+console.log("david")
 
 var name;
 var nameInput = $("#name-input")
