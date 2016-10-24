@@ -1,3 +1,5 @@
+addListItem("david" + "/notes", "hi there!!!!")
+
 var name;
 var nameInput = $("#name-input")
 var noteInput = $("#note-input")
@@ -17,6 +19,6 @@ function getNotesForName(name) {
 
 noteInput.keydown(function(e) {
   if (e.which == 13) {    
-    addListItem(name + "/notes", noteInput.val())
+    addListItem(nameInput + "/notes", noteInput.val())
   }
 })
