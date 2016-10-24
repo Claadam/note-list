@@ -21,7 +21,7 @@ function getNotesForName(name) {
 
 noteInput.keydown(function(e) {
   if (e.which == 13) {    
-    addListItem(nameInput + "/notes", noteInput.val())
+    addListItem(nameInput.val() + "/notes", noteInput.val())
     console.log("nameInput")
 
   }
