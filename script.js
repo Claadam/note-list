@@ -1,4 +1,4 @@
-addListItem("david" + "/notes", "hi there!!!!")
+//addListItem("david" + "/notes", "hi there!!!!")
 console.log("hi")
 
 var name;
@@ -22,7 +22,7 @@ function getNotesForName(name) {
 noteInput.keydown(function(e) {
   if (e.which == 13) {    
     addListItem(nameInput + "/notes", noteInput.val())
-    console.log(nameInput)
+    console.log("nameInput")
 
   }
 })
