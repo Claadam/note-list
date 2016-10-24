@@ -22,7 +22,7 @@ function getNotesForName(name) {
 noteInput.keydown(function(e) {
   if (e.which == 13) {    
     addListItem(nameInput.val() + "/notes", noteInput.val())
-    console.log("nameInput")
+    console.log("你今天过得怎么样")
 
   }
 })
