@@ -1,5 +1,5 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyB4n3T-wB2G2UnIrMUU3hC7SqoXhPEb4L0",
+  apiKey: "AIzaSyAubBTOEwLEtudI00cOf8c8c8a0ao7N1kA",
   authDomain: "classadoo-dev.firebaseapp.com",
   databaseURL: "https://classadoo-dev.firebaseio.com"	
 };
